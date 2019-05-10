@@ -124,3 +124,6 @@ STATIC_URL = '/static/'
 
 # Where to look for static files
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
+
+# Log In redirect
+LOGIN_REDIRECT_URL = 'home'
